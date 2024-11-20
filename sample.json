@@ -1,0 +1,54 @@
+[
+    {
+      "id": { "S": "Match#1" },
+      "pool": { "S": "A" },
+      "date": { "S": "2024-11-19" },
+      "court": { "S": "Court 1" },
+      "teams": { "L": [ { "S": "Team Red" }, { "S": "Team Blue" } ] },
+      "scores": { "L": [ { "N": "21" }, { "N": "15" } ] }
+    },
+    {
+      "id": { "S": "Match#2" },
+      "pool": { "S": "B" },
+      "date": { "S": "2024-11-20" },
+      "court": { "S": "Court 2" },
+      "teams": { "L": [ { "S": "Team Green" }, { "S": "Team Yellow" } ] },
+      "scores": { "L": [ { "N": "25" }, { "N": "23" } ] }
+    },
+    {
+      "id": { "S": "Bracket#1" },
+      "round": { "S": "Quarterfinals" },
+      "teams": { "L": [ { "S": "Team Red" }, { "S": "Team Yellow" } ] },
+      "winners": { "L": [ { "S": "Team Yellow" } ] }
+    },
+    {
+      "id": { "S": "Bracket#2" },
+      "round": { "S": "Semifinals" },
+      "teams": { "L": [ { "S": "Team Green" }, { "S": "Team Yellow" } ] },
+      "winners": { "L": [] }
+    },
+    {
+      "id": { "S": "Location#1" },
+      "name": { "S": "Main Gym" },
+      "address": { "S": "123 Sports Ave, Springfield" },
+      "courts": { "N": "3" }
+    },
+    {
+      "id": { "S": "Location#2" },
+      "name": { "S": "Community Center" },
+      "address": { "S": "456 Community Rd, Springfield" },
+      "courts": { "N": "2" }
+    },
+    {
+      "id": { "S": "User#1" },
+      "name": { "S": "Alice Johnson" },
+      "email": { "S": "alice.johnson@example.com" },
+      "role": { "S": "admin" }
+    },
+    {
+      "id": { "S": "User#2" },
+      "name": { "S": "Bob Smith" },
+      "email": { "S": "bob.smith@example.com" },
+      "role": { "S": "player" }
+    }
+  ]  

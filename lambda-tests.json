@@ -1,0 +1,5 @@
+{
+    "routeKey": "POST /matches",
+    "body": "{\"id\":\"1\",\"pool\":\"A\",\"date\":\"2024-11-19\",\"court\":\"Court 1\",\"teams\":[\"Team Red\",\"Team Blue\"],\"scores\":[21,15]}"
+  }
+  
